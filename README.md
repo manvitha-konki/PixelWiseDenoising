@@ -56,25 +56,6 @@ We formulate image denoising as a **Markov Decision Process**:
 
 ---
 
-## Directory Structure
-
-pixelRL/
-├── train.py
-├── MyFcn.py
-├── State.py
-├── pixelwise_a3c.py
-├── mini_batch_loader.py
-├── BSD68/
-│ └── gray/
-├── training_BSD68.txt
-├── testing.txt
-├── resultimage_tf/
-├── model_tf/
-└── log_tf.txt
-
-
----
-
 ## Requirements
 
 - Python 3.7+
