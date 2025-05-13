@@ -1,10 +1,10 @@
-# 🎯 Pixel-wise A3C for Image Denoising
+# Pixel-wise A3C for Image Denoising
 
 This project implements a **Reinforcement Learning (RL)**-based framework for grayscale image denoising using a **fully convolutional A3C (Asynchronous Advantage Actor-Critic)** model. Unlike traditional denoising methods, this approach learns to apply **pixel-level filters and fine-tuned actions** over multiple steps to iteratively clean noisy images.
 
 ---
 
-## 🧠 Core Idea
+## Core Idea
 
 We formulate image denoising as a **Markov Decision Process**:
 - Each **pixel** is treated as an agent.
@@ -15,7 +15,7 @@ We formulate image denoising as a **Markov Decision Process**:
 
 ---
 
-## 🧩 Key Files and Responsibilities
+## Key Files and Responsibilities
 
 ### 1. `train.py`
 - Main script to run training and testing.
@@ -56,7 +56,7 @@ We formulate image denoising as a **Markov Decision Process**:
 
 ---
 
-## 🗂 Directory Structure
+## Directory Structure
 
 pixelRL/
 ├── train.py
@@ -75,7 +75,7 @@ pixelRL/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.7+
 - TensorFlow 2.x
